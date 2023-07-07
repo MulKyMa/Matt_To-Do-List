@@ -36,3 +36,5 @@ function showTask(){
   listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+// add an eventlistner, then add a form, an input and a button in this eventL then call back all the data in my localStorage...then append it.
